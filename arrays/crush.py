@@ -22,13 +22,7 @@ class intersection:
 
 
 def arrayManipulation(n, queries):
-    operations = []
-    for i in range(len(queries)):
-        op = intersection(queries[i][0], queries[i][1], queries[i][2])
-        operations.append(op)
-    for i in operations:
-        i.display()
-
+    # we should implement segment tree with lazy propagation
 
 if __name__ == '__main__':
     #fptr = open(os.environ['OUTPUT_PATH'], 'w')
