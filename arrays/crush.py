@@ -18,12 +18,6 @@ class intersection:
         print('start: ', self.start)
         print('end: ', self.end)
         print('value: ', self.value)
-# Complete the arrayManipulation function below.
-
-
-def arrayManipulation(n, queries):
-    # we should implement segment tree with lazy propagation
-
 if __name__ == '__main__':
     #fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
