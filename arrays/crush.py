@@ -34,6 +34,3 @@ if __name__ == '__main__':
 
     result = arrayManipulation(n, queries)
     print('result: ', result)
-    #fptr.write(str(result) + '\n')
-
-    # fptr.close()
